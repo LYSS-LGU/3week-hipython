@@ -280,10 +280,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 28,
    "id": "4761ef69",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python 파일 입출력\n",
+      "반복문을 사용하여 데이터를 저장합니다.\n",
+      "데이터 처리가 편리합니다.\n"
+     ]
+    }
+   ],
    "source": [
     "with open(\"abc/파일이름.txt\", \"r\", encoding=\"utf-8\") as file:\n",
     "    while True:\n",
@@ -325,10 +335,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 29,
    "id": "2fe45a1d",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Python 파일 입출력\n",
+      "반복문을 사용하여 데이터를 저장합니다.\n",
+      "데이터 처리가 편리합니다.\n"
+     ]
+    }
+   ],
    "source": [
     "with open(\"abc/파일이름.txt\", \"r\", encoding=\"utf-8\") as file:\n",
     "    lines = file.readlines()\n",
@@ -354,10 +374,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 31,
    "id": "b7857657",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "PYTHON 파일 입출력\n",
+      "반복문을 사용하여 데이터를 저장합니다.\n",
+      "데이터 처리가 편리합니다.\n"
+     ]
+    }
+   ],
    "source": [
     "with open(\"abc/파일이름.txt\", \"r\", encoding=\"utf-8\") as f:\n",
     "    for line in f.readlines():\n",
@@ -393,7 +423,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 35,
    "id": "319a1429",
    "metadata": {},
    "outputs": [
@@ -436,7 +466,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 36,
    "id": "efe33c69",
    "metadata": {},
    "outputs": [],
@@ -446,7 +476,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 39,
    "id": "cbda7f8b",
    "metadata": {},
    "outputs": [],
@@ -458,7 +488,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 38,
    "id": "b10f24a9",
    "metadata": {},
    "outputs": [
@@ -479,10 +509,21 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 40,
    "id": "3e97e093",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[['name', 'age'], ['bob', 20], ['alice', 15]]"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
    "source": [
     "import csv\n",
     "data = [['name','age'], ['bob', 20], ['alice', 15]]\n",
@@ -491,7 +532,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 42,
    "id": "632ff157",
    "metadata": {},
    "outputs": [],
@@ -504,7 +545,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 44,
    "id": "ccf098a1",
    "metadata": {},
    "outputs": [],
@@ -517,88 +558,79 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 47,
    "id": "541ec1da",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Unnamed: 0</th>\n",
+       "      <th>0</th>\n",
+       "      <th>1</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>0</td>\n",
+       "      <td>name</td>\n",
+       "      <td>age</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>1</td>\n",
+       "      <td>bob</td>\n",
+       "      <td>20</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>2</td>\n",
+       "      <td>alice</td>\n",
+       "      <td>15</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   Unnamed: 0      0    1\n",
+       "0           0   name  age\n",
+       "1           1    bob   20\n",
+       "2           2  alice   15"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
    "source": [
     "pd.read_csv('abc/파일이름_df.csv')"
    ]
   },
   {
-   "cell_type": "markdown",
+   "cell_type": "code",
+   "execution_count": null,
    "id": "2b777551",
-   "metadata": {},
-   "source": [
-    "# 실습해보기"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "542d7dcf",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "while True:\n",
-    "    text = input(\"파일에 저장할 내용을 입력하세요 (종료: q 또는 ㅂ): \")\n",
-    "    if text in [\"q\",\"ㅂ\"]:\n",
-    "        break\n",
-    "    with open(\"abc/파일이름.txt\", \"a\", encoding=\"utf-8\") as f:\n",
-    "        f.write(text + \"\\n\")\n",
-    "\n",
-    "# 입력 끝나면 전체 내용 읽어보기\n",
-    "with open(\"abc/파일이름.txt\", \"r\", encoding=\"utf-8\") as f:\n",
-    "    print(\"\\n🔍 저장된 전체 내용:\")\n",
-    "    print(f.read())\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 14,
-   "id": "154d9053",
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "\n",
-      "🔍 저장된 전체 내용:\n",
-      "name,age\n",
-      "\n",
-      "bob,20\n",
-      "\n",
-      "alice,15\n",
-      "\n",
-      "안녕 반가워\n",
-      "반가워\n",
-      "안녕\n",
-      "\n",
-      "\n"
-     ]
-    }
-   ],
-   "source": [
-    "while True:\n",
-    "    text = input(\"파일에 저장할 내용을 입력하세요 (종료: q 또는 ㅂ): \")\n",
-    "    if text in [\"q\",\"ㅂ\"]:\n",
-    "        break\n",
-    "    with open(\"abc/파일이름.csv\", \"a\", encoding=\"utf-8\") as f:\n",
-    "\n",
-    "        f.write(text + \"\\n\")\n",
-    "\n",
-    "# 입력 끝나면 전체 내용 읽어보기\n",
-    "with open(\"abc/파일이름.csv\", \"r\", encoding=\"utf-8\") as f:\n",
-    "\n",
-    "    print(\"\\n🔍 저장된 전체 내용:\")\n",
-    "    print(f.read())\n"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "d6239b45",
    "metadata": {},
    "outputs": [],
    "source": []
